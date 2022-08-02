@@ -1,0 +1,98 @@
+ *{
+ padding: 0%;
+ margin: 0%;
+ font-family: Tahoma;
+ }
+ body{
+    background-image: url(https://media.istockphoto.com/photos/questionnaire-with-checkboxes-filling-survey-form-online-answer-picture-id1398473177?b=1&k=20&m=1398473177&s=170667a&w=0&h=tA1KW9n6V4JiTfTWJ7l3viB7eqeY08HvfOzjJdu2bn4=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(82, 74, 74);
+ }
+ h1,p{
+    text-align: center;
+ }
+ h1{
+    margin-top: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: underline;
+ }
+ p{
+    margin-top: 10px ;
+    font-size: small;
+ }
+ .form-box{
+    width: 60vw;
+    height: 100%;
+    max-width: 500px;
+    margin: 15px auto;
+    min-width: 300px;
+    padding: 3em 2em 2em 2em;
+    background-color: rgba(14, 189, 238,0.5);
+    border-radius: 10px;
+ }
+ .in{
+    width: 90%;
+    padding: 0.7em;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin: 8px 0 8px 0;
+ }
+ label{
+    font-size: 23px;
+    
+ }
+ span{
+    font-size: 15px;
+ }
+ select{
+    margin: 8px 0 8px 0;
+    width: 92%;
+    padding: 0.7em;
+    border-radius: 5px;
+ }
+ option{
+    font-size: 15px;
+ }
+
+input[type="radio"]{
+    border: 0px;
+    width: 20px;
+    height:20px;
+}
+ .opt label{
+    padding: 30px auto;
+ }
+ .check label{
+    display: block;
+    margin-bottom: 5px;
+ }
+ input[type="checkbox"]{
+    width: 50px;
+    height: 20px;
+ }
+ textarea{
+    display: block;
+    width: 90%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 2px solid gray;
+ }
+ input[type="submit"]{
+    display: block;
+    width: 90%;
+    padding: 1em;
+    background-color: green;
+    border-style: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: gainsboro; 
+    
+ }
+ input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(14, 189, 238);
+    color: whitesmoke;
+ }
